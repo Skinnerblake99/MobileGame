@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/polyperfect/Low Poly Ultimate Pack/06 - castle.unity
+    path: Assets/Scenes/StartScreen.unity
+    guid: a5e4a84e0f9aa68458ac3c9425a907af
+  - enabled: 1
+    path: Assets/Scenes/06 - castle.unity
     guid: 6b5559adca910d540a4fe673a1727602
   m_configObjects: {}
