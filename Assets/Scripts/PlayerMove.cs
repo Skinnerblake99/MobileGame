@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    //Code leftover and not in use as of 21/10/2020
     //Blake Skinner 08/10/2020 Swipe movement code sourced from https://www.youtube.com/watch?v=jbFYYbu5bdc&feature=emb_title
     //Cant get swiping implemented at present
     private Vector2 FingerDownPosition;

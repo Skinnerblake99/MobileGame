@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class BuildManager : MonoBehaviour
 {
-    public static BuildManager instance;
+    // Code sourced from here https://www.youtube.com/watch?v=beuoNuK2tbk&list=PLPV2KyIb3jR4u5jX8za5iU1cqnQPmbzG0
 
-    //public GameObject Level1Turret;
-    //public GameObject MoneyGeneratoLevel1;
-    
+    public static BuildManager instance;
     private TurretBluePrint turretToBuild;
  
  

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TowerTile : MonoBehaviour
 {
+    //Code sourced from https://www.youtube.com/watch?v=beuoNuK2tbk&list=PLPV2KyIb3jR4u5jX8za5iU1cqnQPmbzG0 8/10/2020
     public Color Highlighting;
 
     public Vector3 positionOffset;

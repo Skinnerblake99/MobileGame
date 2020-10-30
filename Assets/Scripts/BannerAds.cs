@@ -7,7 +7,7 @@ public class BannerAds : MonoBehaviour
 {
     string gameId = "3871599";
     string placementId = "3871599";
-    bool testMode = true;
+   public bool testMode = true;
 
      IEnumerator Start()
     {
