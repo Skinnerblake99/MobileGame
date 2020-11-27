@@ -28,7 +28,7 @@ public class Spawner : MonoBehaviour
             TimesHasBeenInvoked += 1;
             TimeBetweenSpawn = 0;
             TimeBetweenSpawn += TimesHasBeenInvoked;
-            Debug.Log(TimeBetweenSpawn);
+            //Debug.Log(TimeBetweenSpawn);
         }
         else return;
     }

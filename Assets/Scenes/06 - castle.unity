@@ -11678,7 +11678,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 843691177}
-  - component: {fileID: 843691178}
   m_Layer: 9
   m_Name: '- Castle'
   m_TagString: Untagged
@@ -11742,18 +11741,6 @@ Transform:
   m_Father: {fileID: 1318964196}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &843691178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843691176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1897577771}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &845683723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11947,6 +11934,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 407752, guid: b75d513df2c5cdb408d4a022c98cf202, type: 3}
   m_PrefabInstance: {fileID: 851768992}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &854932066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 854932067}
+  - component: {fileID: 854932068}
+  m_Layer: 0
+  m_Name: Networking data
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &854932067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854932066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.276978, y: -3.8568134, z: 10.56479}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &854932068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854932066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d395a60f48b21c5429c492c858bac6cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Abort: 0
+  NewData: 
+  _data: 
+  results: 
 --- !u!1001 &862529184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24384,7 +24418,7 @@ GameObject:
   - component: {fileID: 1729870549}
   - component: {fileID: 1729870548}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: FMOD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
