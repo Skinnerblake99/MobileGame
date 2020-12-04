@@ -13,10 +13,16 @@ public class LoadingCovidData : MonoBehaviour
     public string results;
     public int intResults;
     public string www1;
+    CovidBoss covidBoss;
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(GetData());
+        //StartCoroutine(GetData());
+    }
+     void Awake()
+    {
+        covidBoss = GameObject.FindObjectOfType<CovidBoss>();
+        StartCoroutine(GetData());   
     }
 
     IEnumerator GetData()
@@ -48,11 +54,17 @@ public class LoadingCovidData : MonoBehaviour
                 print(jsonData["body"][5]["newAdmissions"]);
                 results = jsonData["body"][5]["newAdmissions"];
                 intResults = int.Parse(results);
+                covidBoss.CheckBossData(intResults);
                 Debug.Log(intResults);
             }
 
             
         }
+    }
+
+    public void ReciveData(int d)
+    {
+        intResults += d;
     }
 
     //public static LoadingCovidData CreateFromJSON(string jsonString)
