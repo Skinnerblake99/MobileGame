@@ -27,6 +27,7 @@ public class LoadingCovidData : MonoBehaviour
 
     IEnumerator GetData()
     {
+        //Data is a week old as its when goverment update it
         //Requests data from UK gov guidance on live infection data
         //Gov data from here https://coronavirus.data.gov.uk/details/download
         www1 = ("https://api.coronavirus.data.gov.uk/v2/data?areaType=overview&metric=newAdmissions&format=json");
@@ -51,20 +52,21 @@ public class LoadingCovidData : MonoBehaviour
             }
             else
             {
-                print(jsonData["body"][5]["newAdmissions"]);
-                results = jsonData["body"][5]["newAdmissions"];
+                //print(jsonData["body"][7]["newAdmissions"]);
+                results = jsonData["body"][7]["newAdmissions"];
                 intResults = int.Parse(results);
+                Debug.Log(results);
                 covidBoss.CheckBossData(intResults);
-                Debug.Log(intResults);
+                //Debug.Log(intResults);
             }
 
             
         }
     }
 
-    public void ReciveData(int d)
+    public int ReciveData(int d)
     {
-        intResults += d;
+        return intResults = d;
     }
 
     //public static LoadingCovidData CreateFromJSON(string jsonString)

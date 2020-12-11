@@ -9,19 +9,62 @@ public class CovidBoss : MonoBehaviour
     // Start is called before the first frame update
     LoadingCovidData loadingCovidData;
     public int bossMod;
+    public bool justStarted = true;
+    public float bossHealth = 1;
     //Super important this data is loaded in awake due to priortiy
     void Awake()
     {
         loadingCovidData = GameObject.FindObjectOfType<LoadingCovidData>();
         CheckBossData(bossMod);
     }
-    public void CheckBossData(int d)
+     void Start()
+    {
+         justStarted = true;
+    }
+    public int CheckBossData(int d)
     {
         loadingCovidData.ReciveData(d);
-        bossMod = d;
+        bossMod = loadingCovidData.ReciveData(d);
+        Debug.Log(bossMod);
+        return d;
     }
     // Update is called once per frame
     void Update()
     {
+        //Has to be in update to pull value in otherwise it is null due to time it is called in,
+        //Run this routine only once poor performance hack job and will have to evaluate if there
+        //Is a better solution to this
+        if (justStarted)
+        {
+            bossHealth =+ bossMod;
+            justStarted = false;
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        //Currently take away 100 health from the covid boss may need to adjust to scale
+        if (other.tag == "Bullet")
+        {
+            bossHealth -= 100;
+        }
+
+        if (other.tag == "EndPoint")
+        {
+            ReachedTarget();
+        }
+
+    }
+
+    void Die()
+    {
+        ScoreManager.Score += 1;
+        Destroy(gameObject);
+    }
+
+    void ReachedTarget()
+    {
+        PlayerHealth.Health -= 1;
+        Destroy(gameObject);
     }
 }
