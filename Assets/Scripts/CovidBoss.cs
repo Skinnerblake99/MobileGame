@@ -7,6 +7,7 @@ public class CovidBoss : MonoBehaviour
     //This is covid boss and health and power of the boss is based directly on virus infection data loaded in from a goverment website
     //API data loaded from the networking data gameobject which connects to the gov api
     // Start is called before the first frame update
+    //This boss is just tanky dependent on daily infection data which is  a week old
     LoadingCovidData loadingCovidData;
     public int bossMod;
     public bool justStarted = true;
@@ -36,17 +37,17 @@ public class CovidBoss : MonoBehaviour
         //Is a better solution to this
         if (justStarted)
         {
-            bossHealth =+ bossMod;
+            bossHealth += bossMod;
             justStarted = false;
         }
     }
 
     void OnTriggerEnter(Collider other)
     {
-        //Currently take away 100 health from the covid boss may need to adjust to scale
+        //Currently take away 50 health from the covid boss may need to adjust to scale
         if (other.tag == "Bullet")
         {
-            bossHealth -= 100;
+            bossHealth -= 50;
         }
 
         if (other.tag == "EndPoint")
@@ -56,6 +57,7 @@ public class CovidBoss : MonoBehaviour
 
     }
 
+    //Below manages logic for killing when either at end or if runs out of health
     void Die()
     {
         ScoreManager.Score += 1;
