@@ -25,7 +25,6 @@ public class TurretLevel1 : MonoBehaviour
     public GameObject turretLVLText3;
     public GameObject canvas;
 
-
     public bool hasUpgraded1;
     public bool hasUpgraded2;
     public float firstUpgradeCost = 200f;
