@@ -14,14 +14,13 @@ public class LoadingCovidData : MonoBehaviour
     public int intResults;
     public string www1;
     CovidBoss covidBoss;
+    EZMobileBasics ez;
     // Start is called before the first frame update
-    void Start()
-    {
-        //StartCoroutine(GetData());
-    }
+
      void Awake()
     {
         covidBoss = GameObject.FindObjectOfType<CovidBoss>();
+        ez = FindObjectOfType<EZMobileBasics>();
         StartCoroutine(GetData());   
     }
 
@@ -57,6 +56,12 @@ public class LoadingCovidData : MonoBehaviour
                 intResults = int.Parse(results);
                 Debug.Log(results);
                 covidBoss.CheckBossData(intResults);
+                //This is for achievment purposes , if NHS england reports 0 new cases in a day
+                //Player unlock Beaten the bug achievement on playstore games
+                if(intResults == 0)
+                {
+                    ez.UnlockAchievementBeatenTheBug();
+                }
                 //Debug.Log(intResults);
             }
 
@@ -69,8 +74,4 @@ public class LoadingCovidData : MonoBehaviour
         return intResults = d;
     }
 
-    //public static LoadingCovidData CreateFromJSON(string jsonString)
-    //{
-    //    return JsonUtility.FromJson<LoadingCovidData>(jsonString);
-    //}
 }

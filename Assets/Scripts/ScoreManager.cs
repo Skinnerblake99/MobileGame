@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     public static int Score;
+    public int ScoreNew;
     // public string ScoreString;
     public  Text TextScore;
     public float scoreCounter;
@@ -30,5 +31,6 @@ public class ScoreManager : MonoBehaviour
             Score += convertedCounter;
             hasSaved = true;
         }
+        ScoreNew = Score;
     }
 }

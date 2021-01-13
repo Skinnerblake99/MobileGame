@@ -5,6 +5,7 @@ using EasyMobile;
 
 public class EZMobileBasics : MonoBehaviour
 {
+    ScoreManager scoremanager;
     //Taken from easyMobile tutorial 11/01/2021 https://www.youtube.com/watch?v=DJjkxALQOkw
     void Awake()
     {
@@ -17,6 +18,7 @@ public class EZMobileBasics : MonoBehaviour
         {
             GameServices.Init();
         }
+        scoremanager = FindObjectOfType<ScoreManager>();
     }
     public void ShowLeaderboard()
     {
@@ -34,27 +36,30 @@ public class EZMobileBasics : MonoBehaviour
         }
     }
 
-    public void SubmitScore()
+    public void SubmitScoreLevel1()
     {
         if (GameServices.IsInitialized())
         {
-            GameServices.ReportScore(100, EM_GameServicesConstants.Leaderboard_testLeaderboard);
+            GameServices.ReportScore(100, EM_GameServicesConstants.Leaderboard_Lv1LeaderBoard);
         }
     }
 
-    public void LoadLocalUserScore()
+    public void LoadLocalUserScoreLevel1()
     {
         if (GameServices.IsInitialized())
         {
-            GameServices.LoadLocalUserScore(EM_GameServicesConstants.Leaderboard_testLeaderboard, OnLocalUserScoreLoaded);
+            GameServices.LoadLocalUserScore(EM_GameServicesConstants.Leaderboard_Lv1LeaderBoard, OnLocalUserScoreLoaded);
         }
     }
 
-    void OnLocalUserScoreLoaded(string leaderboardName, UnityEngine.SocialPlatforms.IScore score)
+    void OnLocalUserScoreLoaded(string leaderboardName,UnityEngine.SocialPlatforms.IScore score)
     {
         if (score != null)
         {
+
             //Can add unity type of Text to = this to display in game
+            //score = scoremanager.S
+            score.value = scoremanager.ScoreNew;
             Debug.Log("Your score is:" + score.value);
         }
         else
@@ -63,6 +68,24 @@ public class EZMobileBasics : MonoBehaviour
         }
 
     }
+
+    public void SubmitScoreLevel2()
+    {
+        if (GameServices.IsInitialized())
+        {
+            GameServices.ReportScore(100, EM_GameServicesConstants.Leaderboard_Lv2LeaderBoard);
+        }
+    }
+
+    public void LoadLocalUserScoreLevel2()
+    {
+        if (GameServices.IsInitialized())
+        {
+            GameServices.LoadLocalUserScore(EM_GameServicesConstants.Leaderboard_Lv2LeaderBoard, OnLocalUserScoreLoaded);
+        }
+    }
+
+   
 
     public void UnlockAchievementTest()
     {

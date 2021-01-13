@@ -29,12 +29,14 @@ public static class EM_GPGSIds
         public const string achievement_2nd_level_clear = "CgkImfXCq44ZEAIQBw"; // <GPGSID>
         public const string achievement_send_the_kids_back = "CgkImfXCq44ZEAIQFA"; // <GPGSID>
         public const string achievement_goodbye_grades = "CgkImfXCq44ZEAIQEQ"; // <GPGSID>
-        public const string leaderboard_test = "CgkImfXCq44ZEAIQAw"; // <GPGSID>
+        public const string leaderboard_level_2_leaderboard = "CgkImfXCq44ZEAIQFg"; // <GPGSID>
         public const string achievement_eyetest = "CgkImfXCq44ZEAIQBA"; // <GPGSID>
         public const string achievement_dont_feed_the_kids = "CgkImfXCq44ZEAIQEg"; // <GPGSID>
         public const string achievement_dumpf_fight = "CgkImfXCq44ZEAIQCA"; // <GPGSID>
         public const string achievement_excel_failure = "CgkImfXCq44ZEAIQDg"; // <GPGSID>
         public const string achievement_test = "CgkImfXCq44ZEAIQAg"; // <GPGSID>
+        public const string leaderboard_level_1_leaderboard = "CgkImfXCq44ZEAIQFQ"; // <GPGSID>
+        public const string leaderboard_test = "CgkImfXCq44ZEAIQAw"; // <GPGSID>
         public const string achievement_press_beater = "CgkImfXCq44ZEAIQDQ"; // <GPGSID>
         public const string achievement_5g_brain_fried = "CgkImfXCq44ZEAIQDw"; // <GPGSID>
         public const string achievement_eat_out_to_not_help_out = "CgkImfXCq44ZEAIQEA"; // <GPGSID>
