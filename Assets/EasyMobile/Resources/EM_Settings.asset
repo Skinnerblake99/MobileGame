@@ -278,13 +278,91 @@ MonoBehaviour:
     - _name: testAchievements
       _iosId: 
       _androidId: CgkImfXCq44ZEAIQAg
+    - _name: 1stLevelClear
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQBg
+    - _name: 2ndLevelClear
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQBw
+    - _name: 5GBrainFried
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQDw
+    - _name: BeatenTheBug
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQBQ
+    - _name: CovidBuster
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQDA
+    - _name: DomGottaGo
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQCg
+    - _name: DontFeedTheKids
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQEg
+    - _name: DUMPFFIGHT
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQCA
+    - _name: EatOutToNotHelpOut
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQEA
+    - _name: ExcelFailure
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQDg
+    - _name: Eyetest
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQBA
+    - _name: GoodbyeGrades
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQEQ
+    - _name: HospitalShakeHands
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQCw
+    - _name: NoTraceNoIsolate
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQEw
+    - _name: PressBeater
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQDQ
+    - _name: ProtectedTheCapitolBuilding
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQCQ
+    - _name: SendTheKidsBack
+      _iosId: 
+      _androidId: CgkImfXCq44ZEAIQFA
     mAndroidXmlResources: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<!--Google
       Play game services IDs. Save this file as res/values/games-ids.xml in your
       project.-->\r\n<resources>\r\n  <!--app_id-->\r\n  <string name=\"app_id\"
       translatable=\"false\">862842829465</string>\r\n  <!--package_name-->\r\n 
       <string name=\"package_name\" translatable=\"false\">com.DefaultCompany.Fighting5GProtoype</string>\r\n 
       <!--achievement test-->\r\n  <string name=\"achievement_test\" translatable=\"false\">CgkImfXCq44ZEAIQAg</string>\r\n 
-      <!--leaderboard test-->\r\n  <string name=\"leaderboard_test\" translatable=\"false\">CgkImfXCq44ZEAIQAw</string>\r\n</resources>"
+      <!--achievement Eyetest-->\r\n  <string name=\"achievement_eyetest\" translatable=\"false\">CgkImfXCq44ZEAIQBA</string>\r\n 
+      <!--achievement Beaten the bug-->\r\n  <string name=\"achievement_beaten_the_bug\"
+      translatable=\"false\">CgkImfXCq44ZEAIQBQ</string>\r\n  <!--achievement 1st
+      level clear-->\r\n  <string name=\"achievement_1st_level_clear\" translatable=\"false\">CgkImfXCq44ZEAIQBg</string>\r\n 
+      <!--achievement 2nd level clear-->\r\n  <string name=\"achievement_2nd_level_clear\"
+      translatable=\"false\">CgkImfXCq44ZEAIQBw</string>\r\n  <!--achievement DUMPF
+      fight-->\r\n  <string name=\"achievement_dumpf_fight\" translatable=\"false\">CgkImfXCq44ZEAIQCA</string>\r\n 
+      <!--achievement Protected the Capitol Building-->\r\n  <string name=\"achievement_protected_the_capitol_building\"
+      translatable=\"false\">CgkImfXCq44ZEAIQCQ</string>\r\n  <!--achievement Dom
+      gotta go-->\r\n  <string name=\"achievement_dom_gotta_go\" translatable=\"false\">CgkImfXCq44ZEAIQCg</string>\r\n 
+      <!--achievement \u201CI was at a hospital the other night ,I shook hands with
+      everybody, you\u2019ll be pleased to know\"-->\r\n  <string name=\"achievement_i_was_at_a_hospital_the_other_night_i_shook_hands_with_everybody_youll_be_pleased_to_know\"
+      translatable=\"false\">CgkImfXCq44ZEAIQCw</string>\r\n  <!--achievement Covid
+      buster-->\r\n  <string name=\"achievement_covid_buster\" translatable=\"false\">CgkImfXCq44ZEAIQDA</string>\r\n 
+      <!--achievement Press beater-->\r\n  <string name=\"achievement_press_beater\"
+      translatable=\"false\">CgkImfXCq44ZEAIQDQ</string>\r\n  <!--achievement Excel
+      failure-->\r\n  <string name=\"achievement_excel_failure\" translatable=\"false\">CgkImfXCq44ZEAIQDg</string>\r\n 
+      <!--achievement 5G Brain Fried-->\r\n  <string name=\"achievement_5g_brain_fried\"
+      translatable=\"false\">CgkImfXCq44ZEAIQDw</string>\r\n  <!--achievement Eat
+      out to not help out-->\r\n  <string name=\"achievement_eat_out_to_not_help_out\"
+      translatable=\"false\">CgkImfXCq44ZEAIQEA</string>\r\n  <!--achievement Goodbye
+      grades-->\r\n  <string name=\"achievement_goodbye_grades\" translatable=\"false\">CgkImfXCq44ZEAIQEQ</string>\r\n 
+      <!--achievement Don't feed the kids-->\r\n  <string name=\"achievement_dont_feed_the_kids\"
+      translatable=\"false\">CgkImfXCq44ZEAIQEg</string>\r\n  <!--achievement No
+      trace no isolate-->\r\n  <string name=\"achievement_no_trace_no_isolate\" translatable=\"false\">CgkImfXCq44ZEAIQEw</string>\r\n 
+      <!--achievement Send the kids back-->\r\n  <string name=\"achievement_send_the_kids_back\"
+      translatable=\"false\">CgkImfXCq44ZEAIQFA</string>\r\n  <!--leaderboard test-->\r\n 
+      <string name=\"leaderboard_test\" translatable=\"false\">CgkImfXCq44ZEAIQAw</string>\r\n</resources>\n"
     mEnableMultiplayer: 0
     mEnableSavedGames: 0
     mAutoConflictResolutionStrategy: 0
