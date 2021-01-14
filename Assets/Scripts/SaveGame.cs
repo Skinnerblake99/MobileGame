@@ -26,6 +26,7 @@ public class SaveGame : MonoBehaviour
 
     void Update()
     {
+        timer -= Time.deltaTime;
         if(timer <= 0)
         {
             timetoEnd = true;
@@ -35,6 +36,7 @@ public class SaveGame : MonoBehaviour
         {
             ez.SubmitScoreLevel1();
             ez.UnlockAchievement1stLevelClear();
+            SceneManager.LoadScene(2);
         }
 
         if (timetoEnd && levelChoice == 2)

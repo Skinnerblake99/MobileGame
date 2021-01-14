@@ -14989,6 +14989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee94ddb0aca06c449c0cbd1c459cfec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreNew: 0
   TextScore: {fileID: 1067778016}
   scoreCounter: 0
 --- !u!1001 &1072293380
@@ -28852,6 +28853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 480
+  levelChoice: 0
 --- !u!4 &2085735126
 Transform:
   m_ObjectHideFlags: 0
