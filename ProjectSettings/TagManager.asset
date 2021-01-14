@@ -11,6 +11,8 @@ TagManager:
   - FreezeTower
   - EndPoint
   - Canvas
+  - Panel
+  - closeButton
   layers:
   - Default
   - TransparentFX

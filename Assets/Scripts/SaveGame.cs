@@ -9,16 +9,17 @@ public class SaveGame : MonoBehaviour
     public float timer = 480;
     public int levelChoice;
     EZMobileBasics ez;
-    
+    WhichScene ws;
     void Start()
     {
         timetoEnd = false;
         ez = FindObjectOfType<EZMobileBasics>();
-        if(SceneManager.sceneCount == 1)
+        ws = FindObjectOfType<WhichScene>();
+        if(ws.Scene == 2)
         {
             levelChoice = 1;
         }
-        if (SceneManager.sceneCount == 2)
+        if (ws.Scene == 3)
         {
             levelChoice = 2;
         }
