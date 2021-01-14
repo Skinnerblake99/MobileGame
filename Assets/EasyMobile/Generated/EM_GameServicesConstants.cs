@@ -16,19 +16,17 @@ namespace EasyMobile
 		public const string Achievement_ExcelFailure = "ExcelFailure";
 		public const string Achievement_Eyetest = "Eyetest";
 		public const string Achievement_1stLevelClear = "1stLevelClear";
-		public const string Achievement_EatOutToNotHelpOut = "EatOutToNotHelpOut";
 		public const string Achievement_2ndLevelClear = "2ndLevelClear";
 		public const string Achievement_5GBrainFried = "5GBrainFried";
+		public const string Achievement_ProtectedTheCapitolBuilding = "ProtectedTheCapitolBuilding";
 		public const string Achievement_GoodbyeGrades = "GoodbyeGrades";
-		public const string Achievement_CovidBuster = "CovidBuster";
+		public const string Achievement_EatOutToNotHelpOut = "EatOutToNotHelpOut";
 		public const string Achievement_BeatenTheBug = "BeatenTheBug";
 		public const string Leaderboard_Lv1LeaderBoard = "Lv1LeaderBoard";
 		public const string Leaderboard_Lv2LeaderBoard = "Lv2LeaderBoard";
 		public const string Achievement_PressBeater = "PressBeater";
-		public const string Achievement_ProtectedTheCapitolBuilding = "ProtectedTheCapitolBuilding";
+		public const string Achievement_CovidBuster = "CovidBuster";
 		public const string Achievement_NoTraceNoIsolate = "NoTraceNoIsolate";
-		public const string Leaderboard_testLeaderboard = "testLeaderboard";
-		public const string Achievement_testAchievements = "testAchievements";
 
 	}
 }

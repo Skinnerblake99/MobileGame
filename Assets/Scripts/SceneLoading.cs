@@ -6,9 +6,21 @@ using UnityEngine.SceneManagement;
 public class SceneLoading : MonoBehaviour
 {
     BannerAds bannerAds;
-  public void StartGame()
+    public void StartGame()
     {
+        bannerAds = FindObjectOfType<BannerAds>();
         SceneManager.LoadScene(1);
         bannerAds.testMode = false;
     }
+
+    public void ReturnToHome()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
 }

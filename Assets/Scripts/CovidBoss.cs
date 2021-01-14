@@ -44,10 +44,10 @@ public class CovidBoss : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        //Currently take away 50 health from the covid boss may need to adjust to scale
+        //Have had to x4 the damage 13/01/2021 to see if this can help fix the boss being too strong
         if (other.tag == "Bullet")
         {
-            bossHealth -= 50;
+            bossHealth -= 200;
         }
 
         if (other.tag == "EndPoint")

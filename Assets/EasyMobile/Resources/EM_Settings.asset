@@ -271,9 +271,6 @@ MonoBehaviour:
     mGpgsForceRefreshServerAuthCode: 0
     mGpgsOauthScopes: []
     mLeaderboards:
-    - _name: testLeaderboard
-      _iosId: 
-      _androidId: CgkImfXCq44ZEAIQAw
     - _name: Lv1LeaderBoard
       _iosId: 
       _androidId: CgkImfXCq44ZEAIQFQ
@@ -281,9 +278,6 @@ MonoBehaviour:
       _iosId: 
       _androidId: CgkImfXCq44ZEAIQFg
     mAchievements:
-    - _name: testAchievements
-      _iosId: 
-      _androidId: CgkImfXCq44ZEAIQAg
     - _name: 1stLevelClear
       _iosId: 
       _androidId: CgkImfXCq44ZEAIQBg
@@ -340,7 +334,6 @@ MonoBehaviour:
       project.-->\r\n<resources>\r\n  <!--app_id-->\r\n  <string name=\"app_id\"
       translatable=\"false\">862842829465</string>\r\n  <!--package_name-->\r\n 
       <string name=\"package_name\" translatable=\"false\">com.DefaultCompany.Fighting5GProtoype</string>\r\n 
-      <!--achievement test-->\r\n  <string name=\"achievement_test\" translatable=\"false\">CgkImfXCq44ZEAIQAg</string>\r\n 
       <!--achievement Eyetest-->\r\n  <string name=\"achievement_eyetest\" translatable=\"false\">CgkImfXCq44ZEAIQBA</string>\r\n 
       <!--achievement Beaten the bug-->\r\n  <string name=\"achievement_beaten_the_bug\"
       translatable=\"false\">CgkImfXCq44ZEAIQBQ</string>\r\n  <!--achievement 1st
@@ -370,8 +363,7 @@ MonoBehaviour:
       translatable=\"false\">CgkImfXCq44ZEAIQFA</string>\r\n  <!--leaderboard Level
       1 Leaderboard-->\r\n  <string name=\"leaderboard_level_1_leaderboard\" translatable=\"false\">CgkImfXCq44ZEAIQFQ</string>\r\n 
       <!--leaderboard Level 2 Leaderboard-->\r\n  <string name=\"leaderboard_level_2_leaderboard\"
-      translatable=\"false\">CgkImfXCq44ZEAIQFg</string>\r\n  <!--leaderboard test-->\r\n 
-      <string name=\"leaderboard_test\" translatable=\"false\">CgkImfXCq44ZEAIQAw</string>\r\n</resources>"
+      translatable=\"false\">CgkImfXCq44ZEAIQFg</string>\r\n</resources>\n  \n  "
     mEnableMultiplayer: 0
     mEnableSavedGames: 0
     mAutoConflictResolutionStrategy: 0
