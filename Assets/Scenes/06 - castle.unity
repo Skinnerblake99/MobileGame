@@ -17054,7 +17054,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 27.3
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -27590,7 +27590,7 @@ GameObject:
   - component: {fileID: 1991613452}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Canvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27611,7 +27611,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!114 &1991613453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27664,7 +27664,7 @@ RectTransform:
   m_GameObject: {fileID: 1991613451}
   m_LocalRotation: {x: 0.7010951, y: -0, z: -0, w: 0.7130678}
   m_LocalPosition: {x: 0, y: 0, z: 0.6}
-  m_LocalScale: {x: 0.04068153, y: 0.04068153, z: 0.04068153}
+  m_LocalScale: {x: 0.016519807, y: 0.016519807, z: 0.016519807}
   m_Children:
   - {fileID: 1067778015}
   - {fileID: 1133672811}

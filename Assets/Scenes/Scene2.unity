@@ -624,6 +624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee94ddb0aca06c449c0cbd1c459cfec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreNew: 0
   TextScore: {fileID: 29221840}
   scoreCounter: 0
 --- !u!114 &29221840
@@ -6723,6 +6724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 900
+  levelChoice: 0
 --- !u!4 &341082113
 Transform:
   m_ObjectHideFlags: 0
@@ -16242,7 +16244,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 29.4
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -37959,7 +37961,7 @@ RectTransform:
   m_GameObject: {fileID: 2059001881}
   m_LocalRotation: {x: 0.7010951, y: -0, z: -0, w: 0.7130678}
   m_LocalPosition: {x: 0, y: 0, z: 0.6}
-  m_LocalScale: {x: 0.04068153, y: 0.04068153, z: 0.04068153}
+  m_LocalScale: {x: 0.015817678, y: 0.015817678, z: 0.015817678}
   m_Children:
   - {fileID: 29221838}
   - {fileID: 309163890}
