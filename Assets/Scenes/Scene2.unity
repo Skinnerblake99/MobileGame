@@ -1346,14 +1346,14 @@ PrefabInstance:
     - target: {fileID: 4802872929589929026, guid: 0e5ae82d3c3875f459e04e57f9b91709, type: 3}
       propertyPath: EnemySpawned
       value: 
-      objectReference: {fileID: 3723986910327772027, guid: 146c6d2e8c7f5b84f9699b6a39458389, type: 3}
+      objectReference: {fileID: 6846174642724735059, guid: f13a12b3df255c046a2c89cf58f9d3d0, type: 3}
     - target: {fileID: 4802872929589929026, guid: 0e5ae82d3c3875f459e04e57f9b91709, type: 3}
       propertyPath: SpawnLocation
       value: 
       objectReference: {fileID: 50063099}
     - target: {fileID: 4802872929589929026, guid: 0e5ae82d3c3875f459e04e57f9b91709, type: 3}
       propertyPath: TimeBetweenSpawn
-      value: 30
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 4802872929589929027, guid: 0e5ae82d3c3875f459e04e57f9b91709, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5371,7 +5371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8135886326569738822, guid: 56fae09712773584fb63896d473a98ee, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.48515335
+      value: 0.38183507
       objectReference: {fileID: 0}
     - target: {fileID: 8135886326569738822, guid: 56fae09712773584fb63896d473a98ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -7775,7 +7775,7 @@ PrefabInstance:
       objectReference: {fileID: 390658770}
     - target: {fileID: 4802872929589929026, guid: 0e5ae82d3c3875f459e04e57f9b91709, type: 3}
       propertyPath: TimeBetweenSpawn
-      value: 100
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4802872929589929027, guid: 0e5ae82d3c3875f459e04e57f9b91709, type: 3}
       propertyPath: m_LocalPosition.x

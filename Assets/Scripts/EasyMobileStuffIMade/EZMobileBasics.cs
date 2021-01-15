@@ -85,16 +85,6 @@ public class EZMobileBasics : MonoBehaviour
         }
     }
 
-   
-
-    public void UnlockAchievementTest()
-    {
-        if (GameServices.IsInitialized())
-        {
-            GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_testAchievements);
-        }
-    }
-
     public void UnlockAchievement1stLevelClear()
     {
         if (GameServices.IsInitialized())
