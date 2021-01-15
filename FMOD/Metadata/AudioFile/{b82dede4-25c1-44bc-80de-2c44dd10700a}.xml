@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{b82dede4-25c1-44bc-80de-2c44dd10700a}">
+		<property name="assetPath">
+			<value>bensound-theduel.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>118.30857142857143</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c29ad816-1b83-4568-90b4-1dfef7a11b5d}</destination>
+		</relationship>
+	</object>
+</objects>

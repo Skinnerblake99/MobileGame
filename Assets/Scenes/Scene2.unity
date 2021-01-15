@@ -33932,7 +33932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/New Folder/Start
+  Event: event:/New Folder 2/Start 2
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
