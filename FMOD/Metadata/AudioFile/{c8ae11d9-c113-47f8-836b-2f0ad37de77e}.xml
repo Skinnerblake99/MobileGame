@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{c8ae11d9-c113-47f8-836b-2f0ad37de77e}">
+		<property name="assetPath">
+			<value>151022__bubaproducer__laser-shot-silenced.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.69966666666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c29ad816-1b83-4568-90b4-1dfef7a11b5d}</destination>
+		</relationship>
+	</object>
+</objects>
