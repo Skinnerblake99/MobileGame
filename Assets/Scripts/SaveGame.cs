@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class SaveGame : MonoBehaviour
 {
     bool timetoEnd = false;
     //Standard time set to 8 minutes will be changed in inspector per level
     public float timer = 480;
+    public static float timerStat;
     public int levelChoice;
     EZMobileBasics ez;
     WhichScene ws;
+    public Text timeText;
     void Start()
     {
         timetoEnd = false;
@@ -28,7 +31,9 @@ public class SaveGame : MonoBehaviour
     void Update()
     {
         timer -= Time.deltaTime;
-        if(timer <= 0)
+        timerStat = timer;
+        timeText.text = "Time Left: " + timerStat.ToString("0");
+        if (timer <= 0)
         {
             timetoEnd = true;
         }
