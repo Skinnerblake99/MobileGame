@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{9aa4b8ce-e080-4d60-8bc9-3555829e2135}">
+		<property name="assetPath">
+			<value>342200__christopherderp__videogame-menu-button-click.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.13931972789115646</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c29ad816-1b83-4568-90b4-1dfef7a11b5d}</destination>
+		</relationship>
+	</object>
+</objects>

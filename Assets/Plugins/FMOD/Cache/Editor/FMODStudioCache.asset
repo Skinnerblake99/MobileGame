@@ -37,11 +37,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637463273860731648
+  lastModified: 637463312239331802
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 894
+    Value: 958
   Exists: 1
 --- !u!114 &-6431233439219025527
 MonoBehaviour:
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637463273860667171
+  lastModified: 637463312239267314
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Build/Desktop/Start.bank
   Name: Start
-  lastModified: 637463273860761694
+  lastModified: 637463312239683952
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -178,13 +178,38 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 5077539178124384882}
   - {fileID: -4310136195026937395}
+  - {fileID: 2121506007023476242}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4171402043608823336}
   StringsBanks:
   - {fileID: -7426386036656365356}
-  stringsBankWriteTime: 637463273860731648
+  stringsBankWriteTime: 637463312239331802
   cacheVersion: 5
+--- !u!114 &2121506007023476242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Audio Effects/Start 2
+  m_EditorClassIdentifier: 
+  Path: event:/Audio Effects/Start 2
+  guid: facebb1c3de2df4893bce7b7757eff49
+  Banks:
+  - {fileID: -4171402043608823336}
+  - {fileID: -2627129973872026589}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 390
 --- !u!114 &4966896548804660335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,7 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Build/Desktop/2nd Level.bank
   Name: 2nd Level
-  lastModified: 637463273861068941
+  lastModified: 637463312240060909
   LoadResult: 0
   FileSizes: []
   Exists: 1

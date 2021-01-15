@@ -13,6 +13,7 @@ TagManager:
   - Canvas
   - Panel
   - closeButton
+  - ButtonPress
   layers:
   - Default
   - TransparentFX
