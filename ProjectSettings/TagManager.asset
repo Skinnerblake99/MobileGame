@@ -14,6 +14,10 @@ TagManager:
   - Panel
   - closeButton
   - ButtonPress
+  - OverviewCam
+  - MainCam
+  - CameraButtonOff
+  - CameraButtonOn
   layers:
   - Default
   - TransparentFX

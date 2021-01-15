@@ -37,7 +37,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637463355901358498
+  lastModified: 637463359596807758
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637463355901274176
+  lastModified: 637463359596723437
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Build/Desktop/Start.bank
   Name: Start
-  lastModified: 637463355901606492
+  lastModified: 637463359597229358
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -185,7 +185,7 @@ MonoBehaviour:
   - {fileID: -4171402043608823336}
   StringsBanks:
   - {fileID: -7426386036656365356}
-  stringsBankWriteTime: 637463355901358498
+  stringsBankWriteTime: 637463359596807758
   cacheVersion: 5
 --- !u!114 &2121506007023476242
 MonoBehaviour:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Build/Desktop/2nd Level.bank
   Name: 2nd Level
-  lastModified: 637463355902008255
+  lastModified: 637463359597581511
   LoadResult: 0
   FileSizes: []
   Exists: 1
