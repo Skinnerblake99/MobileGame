@@ -47,7 +47,7 @@ public class CovidBoss : MonoBehaviour
         //Have had to x4 the damage 13/01/2021 to see if this can help fix the boss being too strong
         if (other.tag == "Bullet")
         {
-            bossHealth -= 200;
+            bossHealth -= 400;
         }
 
         if (other.tag == "EndPoint")
