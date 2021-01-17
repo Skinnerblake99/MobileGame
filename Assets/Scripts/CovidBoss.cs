@@ -37,12 +37,8 @@ public class CovidBoss : MonoBehaviour
         //Is a better solution to this
         if (justStarted)
         {
-            bossHealth += bossMod;
+            bossHealth = bossMod;
             justStarted = false;
-        }
-        if(bossHealth <= 0)
-        {
-            Die();
         }
     }
 
@@ -51,7 +47,11 @@ public class CovidBoss : MonoBehaviour
         //Have had to x4 the damage 13/01/2021 to see if this can help fix the boss being too strong
         if (other.tag == "Bullet")
         {
-            bossHealth -= 400;
+            bossHealth -= 200;
+            if (bossHealth <= 0)
+            {
+                Die();
+            }
         }
 
         if (other.tag == "EndPoint")

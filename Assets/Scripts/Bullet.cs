@@ -36,7 +36,7 @@ public class Bullet : MonoBehaviour
 
     void HitTarget()
     {
-        Debug.Log("Hit");
+        //Debug.Log("Hit");
         DestroyBullet();
     }
 }
