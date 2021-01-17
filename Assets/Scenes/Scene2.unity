@@ -9585,7 +9585,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Money Tower
+  m_Text: 'Money Tower
+
+    200'
 --- !u!222 &478248515
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11397,7 +11399,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Slow Turret
+  m_Text: 'Slow Turret
+
+    300'
 --- !u!222 &596895792
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19124,7 +19128,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Shoot Turret
+  m_Text: 'Shoot Turret
+
+    50'
 --- !u!222 &1043904685
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34195,7 +34201,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816453556}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 3.0457134, y: 2.4337506, z: 16.810257}

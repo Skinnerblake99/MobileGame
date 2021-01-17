@@ -4969,7 +4969,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 3.4}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &368638092
@@ -5005,7 +5005,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Money Tower
+  m_Text: 'Money Tower
+
+    200'
 --- !u!222 &368638093
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6217,7 +6219,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Shoot Turret
+  m_Text: 'Shoot Turret
+
+    50'
 --- !u!222 &459879728
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22259,7 +22263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3bf0e01687a00544a1542e9c6a8a0a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 900
+  timer: 480
   levelChoice: 0
   timeText: {fileID: 1530660569}
 --- !u!114 &1530660569
@@ -26768,7 +26772,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Slow Turret
+  m_Text: 'Slow Turret
+
+    300'
 --- !u!222 &1780050560
 CanvasRenderer:
   m_ObjectHideFlags: 0
