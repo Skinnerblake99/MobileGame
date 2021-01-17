@@ -11,7 +11,8 @@ public class CovidBoss : MonoBehaviour
     LoadingCovidData loadingCovidData;
     public int bossMod;
     public bool justStarted = true;
-    public float bossHealth = 1;
+    public float bossHealth = 200;
+    public bool hasRecievedBonus;
     //Super important this data is loaded in awake due to priortiy
     void Awake()
     {
@@ -21,6 +22,7 @@ public class CovidBoss : MonoBehaviour
      void Start()
     {
          justStarted = true;
+         hasRecievedBonus = false;
     }
     public int CheckBossData(int d)
     {
@@ -32,14 +34,16 @@ public class CovidBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Has to be in update to pull value in otherwise it is null due to time it is called in,
-        //Run this routine only once poor performance hack job and will have to evaluate if there
-        //Is a better solution to this
-        if (justStarted)
+        if(bossHealth <=0 && hasRecievedBonus)
         {
-            bossHealth = bossMod;
-            justStarted = false;
+            Die();
         }
+        
+    }
+
+    void addHealth()
+    {
+        bossHealth = bossMod;
     }
 
     void OnTriggerEnter(Collider other)
@@ -48,9 +52,10 @@ public class CovidBoss : MonoBehaviour
         if (other.tag == "Bullet")
         {
             bossHealth -= 200;
-            if (bossHealth <= 0)
+            if (bossHealth <=0 && !hasRecievedBonus)
             {
-                Die();
+                addHealth();
+                hasRecievedBonus = true;
             }
         }
 
@@ -64,7 +69,7 @@ public class CovidBoss : MonoBehaviour
     //Below manages logic for killing when either at end or if runs out of health
     void Die()
     {
-        ScoreManager.Score += 1;
+        ScoreManager.Score += 10;
         Destroy(gameObject);
     }
 
