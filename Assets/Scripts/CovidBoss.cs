@@ -40,6 +40,10 @@ public class CovidBoss : MonoBehaviour
             bossHealth += bossMod;
             justStarted = false;
         }
+        if(bossHealth <= 0)
+        {
+            Die();
+        }
     }
 
     void OnTriggerEnter(Collider other)
